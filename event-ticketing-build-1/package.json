@@ -1,0 +1,13 @@
+{
+  "name": "event-ticketing-build-1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Terminal-only event ticketing domain core",
+  "scripts": {
+    "demo": "node scripts/demo.js",
+    "benchmark": "node scripts/benchmark-lookup.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22.13.0" }
+}
